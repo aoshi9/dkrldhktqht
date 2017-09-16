@@ -1,0 +1,7 @@
+#Sat Sep 16 11:13:41 KST 2017
+base.0=C\:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_94a265ac98c177e1ec77c7af3b1bea74425f6044
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_79b60ae0dd11fb83c07a5b698b4231f20351d361\\classes.dex
+base.1=C\:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_79b60ae0dd11fb83c07a5b698b4231f20351d361
+file.0=C\:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_94a265ac98c177e1ec77c7af3b1bea74425f6044\\classes.dex

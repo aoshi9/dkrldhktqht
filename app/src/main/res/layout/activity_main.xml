@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.sot.baby.WatBot.MainActivity">
+
+    <!-- <android.support.design.widget.AppBarLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <android.support.v7.widget.Toolbar
+             android:id="@+id/toolbar"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:background="?attr/colorPrimary"/>
+
+     </android.support.design.widget.AppBarLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BDBDBD"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:src="@drawable/ph1"
+        android:layout_height="155dp"
+        android:padding="4dp"
+         android:scaleType="fitXY" />
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicatorName="LineScalePulseOutRapidIndicator"
+            android:id="@+id/indicator"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Search"
+            android:id="@+id/loadtext"
+            android:textColor="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"/>
+        <include layout="@layout/content_chat_room" />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

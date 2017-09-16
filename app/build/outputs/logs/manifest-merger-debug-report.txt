@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:13:5-70
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.CAMERA
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:14:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:15:5-16:35
+	android:required
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:16:9-32
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:15:19-57
+application
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:18:5-57:19
+MERGED from [com.android.support:design:23.1.1] C:\Users\min\.android\build-cache\eb4243ff4e59ba1df69d54f945359ce89c262efe\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\min\.android\build-cache\59211cf328aecc0c0639db4b7d24a49dd3f266e5\output\AndroidManifest.xml:22:5-20
+MERGED from [com.ibm.watson.developer_cloud:android-sdk:0.2.3] C:\Users\min\.android\build-cache\45a204d9d29b965eaa72a4722d3d45d9a656a487\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\min\.android\build-cache\639b4da30b4f5ffaf3e731641aaf310fd7c62bb2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\min\.android\build-cache\afd251dc595179bdcfc41665ae19a2c978eb690f\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\min\.android\build-cache\42d48ecb0ebf5796b648f55117ff4ae3f892eca2\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\min\.android\build-cache\55f93b5f85f024e81c6cedecfe9176c7ba85c280\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:21:9-41
+	android:supportsRtl
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:22:9-35
+	android:allowBackup
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:20:9-37
+	android:theme
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:23:9-40
+activity#com.sot.baby.WatBot.MainActivity
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:24:9-28:20
+	android:screenOrientation
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:26:13-49
+	android:configChanges
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:27:13-59
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:25:13-60
+provider#android.support.v4.content.FileProvider
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:29:9-37:20
+	android:authorities
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:31:13-67
+	android:grantUriPermissions
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:33:13-47
+	android:exported
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:30:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:34:13-36:53
+	android:resource
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:36:17-51
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:35:17-67
+activity#com.sot.baby.WatBot.PopupActivity
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:38:9-40:56
+	android:label
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:39:13-41
+	android:windowSoftInputMode
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:40:13-54
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:38:19-67
+activity#com.sot.baby.WatBot.PowerpointActivity
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:41:9-42:56
+	android:windowSoftInputMode
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:42:13-54
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:41:19-72
+activity#com.sot.baby.WatBot.SplashActivity
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:43:9-55:20
+	android:screenOrientation
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:44:13-49
+	android:theme
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:45:13-47
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:43:19-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:46:13-54:29
+action#android.intent.action.MAIN
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml:48:27-74
+uses-sdk
+INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.1.1] C:\Users\min\.android\build-cache\eb4243ff4e59ba1df69d54f945359ce89c262efe\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\min\.android\build-cache\3e11e31c94e0ab6f02cf0d5997ba6490e960ac62\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\min\.android\build-cache\59211cf328aecc0c0639db4b7d24a49dd3f266e5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.ibm.watson.developer_cloud:android-sdk:0.2.3] C:\Users\min\.android\build-cache\45a204d9d29b965eaa72a4722d3d45d9a656a487\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\min\.android\build-cache\639b4da30b4f5ffaf3e731641aaf310fd7c62bb2\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\min\.android\build-cache\afd251dc595179bdcfc41665ae19a2c978eb690f\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\min\.android\build-cache\42d48ecb0ebf5796b648f55117ff4ae3f892eca2\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\min\.android\build-cache\55f93b5f85f024e81c6cedecfe9176c7ba85c280\output\AndroidManifest.xml:20:5-43
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\min\.android\build-cache\51429e3c2a26990807d1d7c89ca57b8af5154c63\output\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] C:\Users\min\.android\build-cache\639b4da30b4f5ffaf3e731641aaf310fd7c62bb2\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml
+		INJECTED from C:\devAI\BabyAI_Catbot\app\src\main\AndroidManifest.xml

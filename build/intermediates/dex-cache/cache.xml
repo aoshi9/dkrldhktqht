@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.3.1\99ce730034c6f5aaed710d1e0e9df95e8714ed5f\logging-interceptor-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.3.1_26b9b3b8bcb5f2ea3fe35335212f160c8d96e46a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.2\b70f8bc5b68f3a3c4d67a71b3ba5f3f53205ada\okhttp-ws-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0b70f8bc5b68f3a3c4d67a71b3ba5f3f53205ada">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-ws-3.4.2_df1cb2c8a9d38e70085036abffc3201053515be4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\devAI\BabyAI_Catbot\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_94a265ac98c177e1ec77c7af3b1bea74425f6044\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\conversation\3.5.3\30711fe987b43f8e26942a232bc29bf0c545243d\conversation-3.5.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30711fe987b43f8e26942a232bc29bf0c545243d">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\conversation-3.5.3_ba243686f204057619af7dba62fccb090dac1e8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.3.1\14e70f2069fb98dc60346dd24cb7b6a2e321580d\okhttp-urlconnection-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="14e70f2069fb98dc60346dd24cb7b6a2e321580d">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-3.3.1_3085bb813f61fa743ac13d75524909a77d7f05b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_f7bc01039002e13aef0d5e35ddc42fcbfdfadb98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\devAI\BabyAI_Catbot\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c192cb1fecf27fe50ea8ba541a7d876f6c82bfde">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_79b60ae0dd11fb83c07a5b698b4231f20351d361\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\text-to-speech\3.5.3\54c7b06570e007136526bcc0502d63474b2e487\text-to-speech-3.5.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="054c7b06570e007136526bcc0502d63474b2e487">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\text-to-speech-3.5.3_0536d30a9d4fcc8eeaff45c17d2c79d03b8a12d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\core\3.5.3\c7d0e2ecfcad9ed1cdfb1cbb20bc2f7678939bb2\core-3.5.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7d0e2ecfcad9ed1cdfb1cbb20bc2f7678939bb2">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.5.3_b9aa1803a94069cb940dac1f10c4b0334869b2d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\devAI\BabyAI_Catbot\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_94a265ac98c177e1ec77c7af3b1bea74425f6044\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_b7e5008258f1960d65d1284dbbf0907779eceb9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\speech-to-text\3.5.3\3467f4a51a7924ac18cc393b48b7634dbcd547ca\speech-to-text-3.5.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3467f4a51a7924ac18cc393b48b7634dbcd547ca">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\speech-to-text-3.5.3_ec674bc12c1b20be3131f0a98223dae22b900fe3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\devAI\BabyAI_Catbot\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="56a88fcdaffa22edbc0f93919b774abb2fd86d51">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_79b60ae0dd11fb83c07a5b698b4231f20351d361\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_a940d139c9a86f8447d2e3f26630be8630ff83f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\min\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\devAI\BabyAI_Catbot\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_c8ea6cb57bd488d2b38e186dd169d72d06d6903d\classes.dex" />
+    </item>
+
+</items>

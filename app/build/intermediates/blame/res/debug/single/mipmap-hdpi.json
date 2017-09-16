@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_recoding.png",
+        "source": "C:\\devAI\\BabyAI_Catbot\\app\\src\\main\\res\\mipmap-hdpi\\ic_recoding.png"
+    },
+    {
+        "merged": "C:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_send.png",
+        "source": "C:\\devAI\\BabyAI_Catbot\\app\\src\\main\\res\\mipmap-hdpi\\ic_send.png"
+    },
+    {
+        "merged": "C:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_face.png",
+        "source": "C:\\devAI\\BabyAI_Catbot\\app\\src\\main\\res\\mipmap-hdpi\\ic_face.png"
+    },
+    {
+        "merged": "C:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_mic.png",
+        "source": "C:\\devAI\\BabyAI_Catbot\\app\\src\\main\\res\\mipmap-hdpi\\ic_mic.png"
+    },
+    {
+        "merged": "C:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_sk.png",
+        "source": "C:\\devAI\\BabyAI_Catbot\\app\\src\\main\\res\\mipmap-hdpi\\ic_sk.png"
+    }
+]
