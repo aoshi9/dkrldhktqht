@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
         stopAnim();
 
         //VR 권한 체크
-        //checkPermisson();
+        checkPermisson();
 
 
         inputMessage = (EditText) findViewById(R.id.message);
@@ -170,17 +170,12 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
         this.initialRequest = true;
         sendMessage();
 
-
-
-        //google
-
+        //google STT설정
         i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         i.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, getPackageName());
         i.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "ko-KR");
         i.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 3);
-        i.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, 30000);
-
-
+        i.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, new Long(5000));
 
         Bundle extras = getIntent().getExtras();
 
@@ -297,11 +292,7 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
 
     }
 
-    protected void makeRequest() {
-        ActivityCompat.requestPermissions(this,
-                new String[]{Manifest.permission.RECORD_AUDIO},
-                RECORD_REQUEST_CODE);
-    }
+
 
     // Watson Conversation Service 호출
     private void sendMessage() {
@@ -332,11 +323,12 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
 
                     ConversationService service = new ConversationService(ConversationService.VERSION_DATE_2016_09_20);  //버전
 
-                    //SOT용 : service.setUsernameAndPassword("674e6743-7a44-49c0-b27b-0b2cf7774f02", "ei6eHMlhwfa3");
-                    service.setUsernameAndPassword("d6c649c3-b984-46ff-8563-a1ac1258ffcf", "FMZa7Fix8fJN");
+                    //SOT용 :
+                    service.setUsernameAndPassword("674e6743-7a44-49c0-b27b-0b2cf7774f02", "ei6eHMlhwfa3");
+                    //service.setUsernameAndPassword("d6c649c3-b984-46ff-8563-a1ac1258ffcf", "FMZa7Fix8fJN");
                     MessageRequest newMessage = new MessageRequest.Builder().inputText(inputmessage).context(context).build();
 
-                    MessageResponse response = service.message("26d08a06-a8f8-4ffe-9b1b-4a86bf1bc3d1", newMessage).execute();
+                    MessageResponse response = service.message("4089eae0-c2cf-4c5b-af13-1f108e7cc35a", newMessage).execute();
 
                     //Node.js 서버 활용시
                     if(response.getContext().containsKey("action")){
@@ -523,9 +515,6 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
     }
     //VR 카메라 OPEN
     public void openActionCarmera() {
-        Log.v("AiLog  :  ", "action_camera 1" + permissionCheck1);
-        Log.v("AiLog  :  ", "action_camera 2" + permissionCheck2);
-        Log.v("AiLog  :  ", "action_camera 3" + permissionCheck3);
         if(permissionCheck1==PackageManager.PERMISSION_GRANTED &&
                 permissionCheck2==PackageManager.PERMISSION_GRANTED &&
                 permissionCheck3==PackageManager.PERMISSION_GRANTED) {
@@ -545,8 +534,9 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
                 // Continue only if the File was successfully created
                 if (photoFile != null) {
                     photoURI = FileProvider.getUriForFile(this,
-                            "com.sot.baby.Watbot.fileprovider",
+                            "com.sot.baby.WatBot.fileprovider",
                             photoFile);
+
                     cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                     startActivityForResult(cameraIntent, REQUEST_IMAGE_CAPTURE);
                 }
@@ -561,8 +551,6 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
 
     //VR 사진 브라우저 OPEN
     public void openActionBrowse() {
-        Log.v("AiLog  :  ", "action_browse 1" + permissionCheck1);
-        Log.v("AiLog  :  ", "action_browse 2" + permissionCheck2);
         if(permissionCheck1==PackageManager.PERMISSION_GRANTED && permissionCheck2==PackageManager.PERMISSION_GRANTED) {
             Intent i = new Intent(
                     Intent.ACTION_PICK,
@@ -585,6 +573,7 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = "JPEG_" + timeStamp + "_";
         File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+
         File image = File.createTempFile(
                 imageFileName,  /* prefix */
                 ".jpg",         /* suffix */
@@ -854,15 +843,19 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
             System.out.println("rs : " + rs);
             mResult.toArray(rs);
 
-            Log.v("AiLog  :  ", "mResult.size():  "  + mResult.size());
             //tv.setText(""+rs[0]);
             inputMessage.setText(""+rs[0]);
 
             if(inputMessage.getText().toString().replace(" ","").contentEquals("사진올릴래"))
             {
                 //VR 사진 올리기
-                Log.v("AiLog  :  ", "mResult.getT1ext:  "  + inputMessage.getText().toString().replace(" ",""));
                 openActionBrowse();
+            }
+
+            if(inputMessage.getText().toString().replace(" ","").contentEquals("사진찍을래"))
+            {
+                //VR 카메라 사진 찍기
+                openActionCarmera();
             }
 
         }
@@ -914,6 +907,12 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
                     new String[]{Manifest.permission.CAMERA},MY_PERMISSIONS_REQUEST_CAMERA);
         }
 
+    }
+
+    protected void makeRequest() {
+        ActivityCompat.requestPermissions(this,
+                new String[]{Manifest.permission.RECORD_AUDIO},
+                RECORD_REQUEST_CODE);
     }
 
     void startAnim(){

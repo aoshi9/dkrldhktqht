@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion '25.0.0'
     defaultConfig {
-        applicationId "com.sot.baby.Watbot"
+        applicationId "com.sot.baby.WatBot"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
