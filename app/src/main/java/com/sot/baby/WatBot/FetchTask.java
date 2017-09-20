@@ -31,9 +31,13 @@ public class FetchTask extends AsyncTask <Void,Void,Void> {
         VisualRecognition service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20);
         service.setApiKey("e11dfbd8f2f139186765f1a53a06eaad7d4d4f2b");  //VR KEY
 
+
         ClassifyImagesOptions options = new ClassifyImagesOptions.Builder()
+                .classifierIds("Baby_Test_90655732")
                 .images(file)
+                .threshold(0.0)
                 .build();
+
         VisualClassification result = service.classify(options).execute();
         Log.v("AiLog  :  ", "VisualClassification result: " + result);
 
