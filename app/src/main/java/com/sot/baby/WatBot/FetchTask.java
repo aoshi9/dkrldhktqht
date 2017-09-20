@@ -29,6 +29,7 @@ public class FetchTask extends AsyncTask <Void,Void,Void> {
 
 
         VisualRecognition service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20);
+
         service.setApiKey("e11dfbd8f2f139186765f1a53a06eaad7d4d4f2b");  //VR KEY
 
 
@@ -42,10 +43,12 @@ public class FetchTask extends AsyncTask <Void,Void,Void> {
         Log.v("AiLog  :  ", "VisualClassification result: " + result);
 
         if (result.getImages() != null) {
+
             List<VisualClassifier> resultClasses = result.getImages().get(0).getClassifiers();
             if (resultClasses.size() > 0) {
                 VisualClassifier classifier = resultClasses.get(0);
                 List<VisualClassifier.VisualClass> classList = classifier.getClasses();
+                Log.v("AiLog  :  ", "classList.size()  : " + classList.size()  );
                 if (classList.size() > 0) {
 
                     for(int i=0;i<classList.size();i++) {
@@ -59,6 +62,8 @@ public class FetchTask extends AsyncTask <Void,Void,Void> {
 
                         asyncResponse.processFinish(search_result);
                     }}}
+        }else{
+            Log.v("AiLog  :  ", "getClassifiers name : " + result.getImages().get(0).getClassifiers() );
         }
         return null;
     }

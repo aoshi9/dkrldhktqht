@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sot.baby.Watbot.test" >
+    package="com.sot.baby.WatBot.test" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.sot.baby.Watbot"
-        android:targetPackage="com.sot.baby.Watbot" />
+        android:label="Tests for com.sot.baby.WatBot"
+        android:targetPackage="com.sot.baby.WatBot" />
 
     <application>
         <uses-library android:name="android.test.runner" />

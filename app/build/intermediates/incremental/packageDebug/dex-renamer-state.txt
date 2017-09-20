@@ -1,4 +1,4 @@
-#Sat Sep 16 11:13:41 KST 2017
+#Sun Sep 17 02:55:16 KST 2017
 base.0=C\:\\devAI\\BabyAI_Catbot\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_94a265ac98c177e1ec77c7af3b1bea74425f6044
 renamed.1=classes.dex
 renamed.0=classes2.dex

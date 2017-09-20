@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.sot.baby.Watbot.test;
+package com.sot.baby.WatBot.test;
 
 public final class R {
     public static final class attr {
